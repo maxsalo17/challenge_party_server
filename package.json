@@ -1,0 +1,29 @@
+{
+  "name": "challenge_party_server",
+  "version": "0.0.1",
+  "description": "Challenge Party Service back-end engine",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxsalo17/challenge_party_server.git"
+  },
+  "author": "8leven",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxsalo17/challenge_party_server/issues"
+  },
+  "homepage": "https://github.com/maxsalo17/challenge_party_server#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.5",
+    "rand-token": "^1.0.1"
+  }
+}
